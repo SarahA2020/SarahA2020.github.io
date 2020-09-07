@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+}
+
+.navigation {
+	background-color: #501b1d;
+	display: flex;
+	justify-content: center;
+}
+
+nav a {
+	color: #f8f6f5;
+	text-decoration: none;
+	font-family: 'Kufam';
+	font-size: 2.5rem;
+	padding: 10px 30px;
+}
+
+nav a:hover {
+	color: #adadad;
+}
+
+.introImage {
+	width: 100%;
+	
+}
