@@ -8,6 +8,8 @@ body {
 	font-size: 62.5%;
 }
 
+/* Header Section */
+
 .navigation {
 	background-color: #54c9c4;
 	display: flex;
@@ -81,3 +83,12 @@ p.overlap {
 	padding-left: 2px;
 }
 
+/* About Me Section */
+
+.aboutMe {
+	display: flex;
+}
+
+.portfolio {
+	display: flex;
+}
