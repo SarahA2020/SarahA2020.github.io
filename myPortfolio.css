@@ -92,9 +92,21 @@ p.overlap {
 .textAboutMe {
 	width: 40%;
 	font-family: 'Kufam';
+	background-color: #2e2e2e;
+}
+
+.aboutMeImage {
+	width: 60%;
 }
 
 .portfolio {
 	display: flex;
-	flex-direction: row-reverse;
+}
+
+.portfolioImage {
+	width: 60%;
+}
+
+.textPortfolio {
+	width: 40%;
 }
