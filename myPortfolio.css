@@ -9,13 +9,13 @@ body {
 }
 
 .navigation {
-	background-color: #501b1d;
+	background-color: #d6ce15;
 	display: flex;
 	justify-content: center;
 }
 
 nav a {
-	color: #f8f6f5;
+	color: #1f2605;
 	text-decoration: none;
 	font-family: 'Kufam';
 	font-size: 2.5rem;
@@ -25,8 +25,22 @@ nav a {
 nav a:hover {
 	color: #adadad;
 }
+/*
+.intro {
+	display: flex;
+}
+*/
 
 .introImage {
 	width: 100%;
 	
+}
+
+.overlap {
+	position: relative;
+	bottom: 500px;
+	left: 500px;
+	font-family: 'Kufam';
+	font-size: 2rem;
+	color: #d6ce15;
 }
