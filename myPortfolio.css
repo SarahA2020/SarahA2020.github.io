@@ -42,7 +42,7 @@ header {
 header::before {
 	content:'';
 	display: block;
-	background-color: #54c9c4;
+	background-color: rgba(84, 201, 196, 0.65);
 	width: 165px;
 	height: 165px;
 	border-radius: 50%;
@@ -70,7 +70,7 @@ p.overlap {
 	letter-spacing: 1.2rem;
 	position: relative;
 	top: 230px;
-	padding-left: 20px;
+	padding-left: 22px;
 }
 
 .pseudoText {
@@ -85,28 +85,35 @@ p.overlap {
 
 /* About Me Section */
 
-.aboutMe {
+.sectionStyling {
 	display: flex;
-}
-
-.textAboutMe {
-	width: 40%;
 	font-family: 'Kufam';
 	background-color: #2e2e2e;
+	color: #f6f7f7;
+}
+
+.textLayout {
+	width: 40%;
+}
+
+.sectionHeading {
+	font-size: 2rem;
+}
+
+.sectionText {
+	font-size: 1.3rem;
 }
 
 .aboutMeImage {
 	width: 60%;
 }
 
-.portfolio {
-	display: flex;
-}
 
 .portfolioImage {
 	width: 60%;
 }
 
+/*
 .textPortfolio {
 	width: 40%;
-}
+} */
