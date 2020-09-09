@@ -59,7 +59,7 @@ header::before {
 	font-size: 4rem;
 	color: #e1ac28;
 	position: relative;
-	top: 265px;
+	top: 270px;
 	letter-spacing: 0.1rem;
 	padding-left: 4px;
 }
@@ -106,14 +106,14 @@ p.headerText {
 }
 
 .sectionHeading {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	color: #54c9c4;
 	padding-bottom: 8px;
 	border-bottom: 1px solid #e1ac28;
 }
 
 .sectionText {
-	font-size: 1.3rem;
+	font-size: 1.04rem;
 }
 
 .aboutMeImage {
@@ -134,23 +134,6 @@ footer {
 	background-color: #e1ac28;
 	padding: 3%;
 }
-
-
-
-/*footer::before {
-	content:'';
-	display: block;
-	background-color: #000000;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	position: relative;
-	bottom: 20%;
-	right: 73%;
-}
-
-*/
-
 
 #btnCall {
 	font-size: 3rem;
@@ -179,11 +162,12 @@ footer {
 
 .myIconText {
 	font-family: 'Kufam';
-	font-size: 1.6rem;
-	color: #ffffff;
-	position: relative;
-	bottom: 50px;
-	
+	font-size: 1.4rem;
+	color: #e1ac28;
+	margin: 0;
+	padding: 0;
+	padding-top: 6.5px;
+	padding-left: 6.6px;
 }
 	
 
