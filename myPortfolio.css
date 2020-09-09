@@ -16,6 +16,13 @@ body {
 	justify-content: center;
 }
 
+@media screen and (max-width: 760px) {
+	.navigation {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
 nav a {
 	color: #2e2e2e;
 	text-decoration: none;
@@ -31,6 +38,7 @@ nav a:hover {
 header {
 	background-image: url("https://cdn.pixabay.com/photo/2020/04/27/17/58/petals-5100957_960_720.jpg");
 	background-size: cover;
+	background-position: center;
 	height: 780px;
 	display: flex;
 	flex-direction: column;
@@ -50,6 +58,14 @@ header::before {
 	top: 280px;
 }
 
+@media screen and (max-width: 401px) {
+	header::before {
+		width: 118px;
+		height: 118px;
+		top: 140px;
+	}
+}
+
 .headerText {
 	font-family: 'Kufam';
 	color: #54c9c4;
@@ -64,6 +80,13 @@ header::before {
 	padding-left: 4px;
 }
 
+@media screen and (max-width: 401px) {
+	.myName {
+		font-size: 3rem;
+		top: 140px;
+	}
+}
+
 p.headerText {
 	text-transform: uppercase;
 	font-size: 1.6rem;
@@ -71,6 +94,13 @@ p.headerText {
 	position: relative;
 	top: 230px;
 	padding-left: 22px;
+}
+
+@media screen and (max-width: 401px) {
+	p.headerText {
+		font-size: 1rem;
+		top: 130px;
+	}
 }
 
 .pseudoText {
@@ -83,6 +113,27 @@ p.headerText {
 	padding-left: 2px;
 }
 
+@media screen and (max-width: 401px) {
+	.pseudoText {
+		font-size: 4.2rem;
+		bottom: 203px;
+	
+	}
+}
+
+/*
+
+@media screen and (max-width: 401px) {
+	.pseudoText {
+		width: 100%;
+		margin: 0;
+		text-align: center;
+		padding-top: 4px;
+	}
+}
+
+*/
+
 /* About Me Section */
 
 .sectionStyling {
@@ -90,11 +141,19 @@ p.headerText {
 	font-family: 'Kufam';
 	background-color: #2e2e2e;
 	color: #f6f7f7;
+	flex-wrap: wrap;
 }
 
 .textContainer {
 	width: 40%;
 	position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+	.textContainer {
+		width: 100%;
+		padding: 15px 0px;
+	}
 }
 
 .centeredContent {
@@ -103,6 +162,15 @@ p.headerText {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.centeredContent {
+		position: static;
+		transform: none;
+		width: 60%;
+		margin: 0 auto;
+	}
 }
 
 .sectionHeading {
@@ -120,9 +188,27 @@ p.headerText {
 	width: 60%;
 }
 
+@media screen and (max-width: 1000px) {
+	.aboutMeImage {
+		width: 100%;
+	}
+}
 
 .portfolioImage {
+	
 	width: 60%;
+}
+
+@media screen and (max-width: 1000px) {
+	.portfolioImage {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.reverse {
+		flex-direction: column-reverse;
+	}
 }
 
 /* Footer Section */
