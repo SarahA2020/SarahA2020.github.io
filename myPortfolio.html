@@ -3,35 +3,38 @@
 <head>
 	<meta charset="utf-8">
 	<title>Sarah Allen Portfolio</title>
+	<script src="https://kit.fontawesome.com/80b0dca2ff.js" crossorigin="anonymous"></script>
 	<link href="normalise.css" type="text/css" rel="stylesheet">
 	<link href="myPortfolio.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;600&display=swap" rel="stylesheet">
-	<meta name=’viewport” content=”width=device-width, initial-scale=0.1”>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<meta name=’viewport” content=”width=device-width, initial-scale=1.0”>
+	
 </head>
 <body>
 	<nav class="navigation">
-		<a href="#">About Me</a>
-		<a href="#">Portfolio</a>
-		<a href="#">Contact</a>
+		<a href="#jumpToAboutMe">About Me</a>
+		<a href="#jumpToPortfolio">Portfolio</a>
+		<a href="#jumpToContact">Contact</a>
 	</nav>
 	
 	<header>
-		<h1 class="overlap myName">Sarah Allen</h1>
-		<p class="overlap">Portfolio</p>
+		<h1 class="headerText myName">Sarah Allen</h1>
+		<p class="headerText">Portfolio</p>
 		<p class="pseudoText">SA</p>		
 	</header>
 	
-	<section class="sectionStyling">
+	<section class="sectionStyling" id="jumpToAboutMe">
 		<div class="textContainer">
 			<div class="centeredContent">
 				<h2 class="sectionHeading">About Me</h2>
-				<p class="sectionText">In hac habitasse platea dictumst. Aliquam tincidunt massa vel ultricies congue. Praesent fringilla sodales est nec iaculis. Mauris eu ultrices elit. Phasellus non massa gravida, blandit magna eu, fermentum dui. Sed gravida elementum faucibus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<p>
+				<p class="sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas imperdiet accumsan. Vestibulum et lacus ut justo dapibus bibendum lobortis eu diam. Donec arcu velit, vehicula aliquet nulla nec, auctor consequat lacus.</p>
 			</div>
 		</div>
 		<img class="aboutMeImage" src="https://cdn.pixabay.com/photo/2017/11/27/21/31/computer-2982270_960_720.jpg">
 	</section>
 	
-	<section class="sectionStyling">
+	<section class="sectionStyling reverse" id="jumpToPortfolio">
 		<img class="portfolioImage" src="https://cdn.pixabay.com/photo/2018/02/04/09/09/brushes-3129361_960_720.jpg" alt="jar of paint brushes">
 		<div class="textContainer">
 			<div class="centeredContent">
@@ -41,8 +44,20 @@
 		</div>	
 	</section>
 
-
-	
+	<footer id="jumpToContact">
+		<a href="tel:07706717710" class="hiddenOnDesktop">
+			<i class="fas fa-mobile-alt"></i>
+		</a>
+		<a href="mailto:sairs_77@hotmail.com">
+			<i class="fas fa-envelope"></i>
+		</a>
+		<a href="https://github.com/Sass77" class="noPadding" target="_blank">
+			<i class="fab fa-github"></i>
+		</a>
+		<div class="myIcon">
+			<p class="myIconText">SA</p>
+		</div>	
+	</footer>
 
 </body>
 </html>
