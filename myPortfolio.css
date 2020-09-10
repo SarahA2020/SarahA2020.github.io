@@ -26,7 +26,7 @@ body {
 nav a {
 	color: #2e2e2e;
 	text-decoration: none;
-	font-family: 'Kufam';
+	font-family: 'Kufam', Arial;
 	font-size: 2.5rem;
 	padding: 10px 40px;
 }
@@ -62,7 +62,7 @@ nav a:hover {
 }
 
 header {
-	background-image: url("https://cdn.pixabay.com/photo/2020/04/27/17/58/petals-5100957_960_720.jpg");
+	background-image: url("images/petals-5100957_1920.jpg");
 	background-size: cover;
 	background-position: center;
 	height: 780px;
@@ -73,7 +73,7 @@ header {
 }
 
 header::before {
-	content:'';
+	content: '';
 	display: block;
 	background-color: rgba(84, 201, 196, 0.65);
 	width: 165px;
