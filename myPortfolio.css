@@ -1,0 +1,293 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+}
+
+/* Header Section */
+
+.navigation {
+	background-color: #54c9c4;
+	display: flex;
+	justify-content: center;
+}
+
+@media screen and (max-width: 486px) {
+	.navigation {
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+nav a {
+	color: #2e2e2e;
+	text-decoration: none;
+	font-family: 'Kufam', Arial;
+	font-size: 2.5rem;
+	padding: 10px 40px;
+}
+
+@media screen and (max-width: 760px) {
+	nav a {
+		font-size: 1.8rem;
+	}
+}
+
+@media screen and (max-width: 617px) {
+	nav a {
+		padding: 10px 35px;
+	}
+}
+
+@media screen and (max-width: 587px) {
+	nav a {
+		font-size: 1.6rem;
+		padding: 10px 25px;
+	}
+}
+
+@media screen and (max-width: 486px) {
+	nav a {
+		font-size: 1.3rem;
+		padding: 10px:
+	}
+}
+
+nav a:hover {
+	color: #e1ac28;
+}
+
+header {
+	background-image: url("images/petals-5100957_1920.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 780px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+header::before {
+	content: '';
+	display: block;
+	background-color: rgba(84, 201, 196, 0.65);
+	width: 165px;
+	height: 165px;
+	border-radius: 50%;
+	position: relative;
+	top: 280px;
+}
+
+@media screen and (max-width: 401px) {
+	header::before {
+		width: 118px;
+		height: 118px;
+		top: 140px;
+	}
+}
+
+.headerText {
+	font-family: 'Kufam';
+	color: #54c9c4;
+}
+
+.myName {
+	font-size: 4rem;
+	color: #e1ac28;
+	position: relative;
+	top: 270px;
+	letter-spacing: 0.1rem;
+	padding-left: 4px;
+}
+
+@media screen and (max-width: 401px) {
+	.myName {
+		font-size: 3rem;
+		top: 140px;
+	}
+}
+
+p.headerText {
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	letter-spacing: 1.2rem;
+	position: relative;
+	top: 230px;
+	padding-left: 22px;
+}
+
+@media screen and (max-width: 401px) {
+	p.headerText {
+		font-size: 1rem;
+		top: 130px;
+	}
+}
+
+.pseudoText {
+	font-family: 'Kufam';
+	font-size: 5.7rem;
+	font-weight: 600;
+	color: #2e2e2e;
+	position: relative;
+	bottom: 195px;
+	padding-left: 2px;
+}
+
+@media screen and (max-width: 401px) {
+	.pseudoText {
+		font-size: 4.2rem;
+		bottom: 203px;
+	}
+}
+
+/* About Me Section */
+
+.sectionStyling {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-family: 'Kufam';
+	background-color: #2e2e2e;
+	color: #f6f7f7;
+	-ms-flex-wrap: wrap;
+	    flex-wrap: wrap;
+}
+
+.textContainer {
+	width: 40%;
+	position: relative;
+}
+
+@media screen and (max-width: 1000px) {
+	.textContainer {
+		width: 100%;
+		padding: 15px 0px;
+	}
+}
+
+.centeredContent {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
+	.centeredContent {
+		position: static;
+		transform: none;
+		width: 60%;
+		margin: 0 auto;
+	}
+}
+
+.sectionHeading {
+	font-size: 1.8rem;
+	color: #54c9c4;
+	padding-bottom: 8px;
+	border-bottom: 1px solid #e1ac28;
+}
+
+.sectionText {
+	font-size: 1.04rem;
+}
+
+.aboutMeImage {
+	width: 60%;
+	height: auto;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+	.aboutMeImage {
+		width: 100%;
+	}
+}
+
+.portfolioImage {
+	width: 60%;
+	height: auto;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 1000px) {
+	.portfolioImage {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.reverse {
+		flex-direction: column-reverse;
+	}
+}
+
+/* Footer Section */
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	background-color: #e1ac28;
+	padding: 3%;
+}
+
+footer a {
+	color: #000000;
+	padding-right: 5%;
+}
+
+.noPadding {
+	padding-right: 0;
+}
+
+@media screen and (max-width: 760px) {
+	footer a {
+		padding-right: 9%;
+	}
+}
+
+@media screen and (min-width: 481px) {
+	.hiddenOnDesktop {
+		display: none;
+	}
+}
+
+footer a:hover {
+	color: #54c9c4;
+}
+
+.fab {
+	font-size: 3rem;
+}
+
+.fas {
+	font-size: 3rem;
+}
+
+.myIcon {
+	background: #000000;
+	width: 46px;
+	height: 46px;
+	border-radius: 50%;
+	position: relative;
+	right: 93%;
+}
+
+.myIconText {
+	font-family: 'Kufam';
+	font-size: 1.4rem;
+	color: #e1ac28;
+	margin: 0;
+	padding: 0;
+	padding-top: 10px;
+	padding-left: 9.4px;
+}
+	
+
