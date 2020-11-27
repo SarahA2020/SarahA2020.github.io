@@ -5,60 +5,91 @@
 	<title>Sarah Allen Portfolio</title>
 	<script src="https://kit.fontawesome.com/80b0dca2ff.js" crossorigin="anonymous"></script>
 	<link href="normalise.css" type="text/css" rel="stylesheet">
-	<link href="myPortfolio.css" type="text/css" rel="stylesheet">
+	<link href="style.css" type="text/css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Kufam:wght@400;600&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
 </head>
 <body>
-	<nav class="navigation">
-		<a href="#jumpToAboutMe">About Me</a>
-		<a href="#jumpToPortfolio">Portfolio</a>
-		<a href="#jumpToContact">Contact</a>
-	</nav>
-	
-	<header>
-		<h1 class="headerText myName">Sarah Allen</h1>
-		<p class="headerText">Portfolio</p>
-		<p class="pseudoText">SA</p>		
-	</header>
-	
-	<section class="sectionStyling" id="jumpToAboutMe">
-		<div class="textContainer">
-			<div class="centeredContent">
-				<h2 class="sectionHeading">About Me</h2>
-				<p class="sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas imperdiet accumsan. Vestibulum et lacus ut justo dapibus bibendum lobortis eu diam. Donec arcu velit, vehicula aliquet nulla nec, auctor consequat lacus.</p>
-			</div>
+<nav class="navigation">
+	<a href="#jumpToAboutMe">About Me</a>
+	<a href="#jumpToProjects">My Projects</a>
+	<a href="#jumpToContact">Contact</a>
+</nav>
+<header>
+	<h1 class="headerText myName">Sarah Allen</h1>
+	<h2 class="jobTitle">Full-Stack Developer</h2>
+	<p class="headerText">Portfolio</p>
+	<p class="pseudoText">SA</p>
+</header>
+<section class="sectionStyling" id="jumpToAboutMe">
+	<div class="textContainer">
+		<div class="centeredContent">
+			<h2 class="sectionHeading">About Me</h2>
+			<p class="sectionText">I am currently training at iO Academy in Bath to become a full-stack web developer. I am from Melbourne, Australia, originally and have called the UK home for the last 16 years, residing in Wiltshire for the last 5.</p>
+			<p class="sectionText">I would love to consolidate and grow my knowledge of the amazing technologies that power the web by joining a team as a junior web developer.</p>
+			<p class="sectionText">In my spare time I enjoy reading, gaming, gardening and playing board games.</p>
 		</div>
-		<img class="aboutMeImage" src="images/coffee-2242212_1920.jpg" alt="laptop and coffee on desk">
-	</section>
-	
-	<section class="sectionStyling reverse" id="jumpToPortfolio">
-		<img class="portfolioImage" src="images/brushes-3129361_1920.jpg" alt="jar of paint brushes">
-		<div class="textContainer">
-			<div class="centeredContent">
-				<h2 class="sectionHeading">Portfolio</h2>
-				<p class="sectionText">In hac habitasse platea dictumst. Aliquam tincidunt massa vel ultricies congue. Praesent fringilla sodales est nec iaculis.<p>
-			</div>
-		</div>	
-	</section>
-
-	<footer id="jumpToContact">
-		<a href="tel:07706717710" class="hiddenOnDesktop">
-			<i class="fas fa-mobile-alt"></i>
-		</a>
-		<a href="mailto:sairs_77@hotmail.com">
-			<i class="fas fa-envelope"></i>
-		</a>
-		<a href="https://github.com/Sass77" class="noPadding" target="_blank">
-			<i class="fab fa-github"></i>
-		</a>
-		<div class="myIcon">
-			<p class="myIconText">SA</p>
-		</div>	
-	</footer>
-
+	</div>
+	<img class="aboutMeImage" src="images/coffee-2242212_1920.jpg" alt="laptop and coffee on desk">
+</section>
+<section class="sectionStyling reverse" id="jumpToProjects">
+	<img class="portfolioImage" src="images/brushes-3129361_1920.jpg" alt="jar of paint brushes">
+	<div class="textContainer">
+		<div class="centeredContent">
+			<h2 class="sectionHeading">My Portfolio</h2>
+			<p class="sectionText">Welcome to my projects. Please click on the individual project cards below to browse through some of the different builds I have been working on.<p>
+		</div>
+	</div>
+</section>
+<section class="projectContainer">
+	<a href="https://github.com/SarahA2020/collector" class="projectCard" target="_blank">
+		<h2 class="projectTitle">Collection App</h2>
+		<img src="images/afl-cards.png" class="projectImage">
+		<p class="projectDescription">This is the first project I built at iO Academy. It is a collector app that allows users to view and add football player cards - a remove feature is coming. The app uses PHP, MySQL, HTML and CSS.</p>
+	</a>
+	<a href="https://github.com/Mayden-Academy/2020-sept-maze-game" class="projectCard" target="_blank">
+		<h2 class="projectTitle">Jarver's Crypt Maze Game</h2>
+		<img src="images/maze-game.png" class="projectImage">
+		<p class="projectDescription">This was our first group project. It is a fun maze game that uses HTML, CSS and JavaScript.</p>
+	</a>
+	<a href="https://github.com/Mayden-Academy/2020-sept-ecommerce" class="projectCard" target="_blank">
+		<h2 class="projectTitle">Robot Stores Ecommerce Site</h2>
+		<img src="images/robot-stores.png" class="projectImage">
+		<p class="projectDescription">Another of our group projects that uses PHP to communicate with a database and populate with JSON data.</p>
+	</a>
+	<a href="https://github.com/SarahA2020/watermelon-svg" class="projectCard">
+		<h2 class="projectTitle">Watermelon SVG</h2>
+		<img src="images/watermelon.png" class="projectImage watermelon">
+		<p class="projectDescription">I built this watermelon using svg paths and arcs.</p>
+	</a>
+	<div class="projectCard">
+		<h2 class="projectTitle">Project Five Title</h2>
+		<img src="images/coming-soon.jpg" class="projectImage">
+		<p class="projectDescription">Coming Soon</p>
+	</div>
+	<div class="projectCard">
+		<h2 class="projectTitle">Project Six Title</h2>
+		<img src="images/coming-soon.jpg" class="projectImage">
+		<p class="projectDescription">Coming Soon</p>
+	</div>
+</section>
+<footer id="jumpToContact">
+	<a href="tel:07706717710" class="hiddenOnDesktop">
+		<i class="fas fa-mobile-alt"></i>
+	</a>
+	<a href="mailto:allensarah20@outlook.com">
+		<i class="fas fa-envelope"></i>
+	</a>
+	<a href="https://github.com/SarahA2020" class="noPadding" target="_blank">
+		<i class="fab fa-github"></i>
+	</a>
+	<a href="https://linkedin.com/in/sarah-allen-150a271a4" target="_blank">
+		<i class="fab fa-linkedin"></i>
+	</a>
+	<div class="myIcon">
+		<p class="myIconText">SA</p>
+	</div>
+</footer>
 </body>
 </html>
-<!-- comments shortcut is cmd+/ -->
