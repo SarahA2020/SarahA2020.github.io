@@ -402,10 +402,11 @@ footer a:hover {
 }
 
 .projectTitle {
-    font-family: 'Kufam', Arial;
-    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
     color: #f6f7f7;
     text-align: center;
+    padding: 0 20px;
 }
 
 .projectImage {
@@ -418,8 +419,8 @@ footer a:hover {
 
 
 .projectDescription {
-    font-family: 'Kufam', Arial;
-    font-size: 0.8rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.65rem;
     color: #f6f7f7;
     text-align: center;
     width: 207px;
